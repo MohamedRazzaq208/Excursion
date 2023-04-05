@@ -1,0 +1,62 @@
+/** Universal Styles **/
+ html {
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+a {
+    font-size: 1rem;
+    color: aquamarine;
+    text-align: center;
+}
+
+/** Header **/
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 3.125rem;
+    font-weight: normal;
+}
+
+.video {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+/** Footer **/
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 1.3125rem;
+    color: grey;
+}
+
+.img-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.end {
+    text-align: right;
+    color: grey;
+    font-size: 1.3125rem;
+}
